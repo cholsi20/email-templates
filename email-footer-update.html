@@ -1,0 +1,812 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<link href="css/app.css" rel="stylesheet" type="text/css" />
+	<!--[if !mso]><!-- --><!--<link href="https://fonts.googleapis.com/css?family=Khula:400,500,600,700" rel="stylesheet" type="text/css">-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,500,600,700" rel="stylesheet" type="text/css" /><!--<![endif]--><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width">
+	<title></title>
+</head>
+
+<style type="text/css">
+	@media only screen {
+		html { 
+			min-height:100%;
+			background:#EAEAEA;
+			}
+		}
+
+		@media only screen and (max-width:666px){
+			.small-float-center {
+				margin:0 auto!important;
+				float:none!important;
+				text-align:center!important;
+			}
+
+			.small-text-center{
+				text-align:center!important;
+			}
+
+			.small-text-left{
+				text-align: left!important;
+			}
+
+			.small-text-right {
+				text-align:right!important;
+			}
+
+			.hide-for-large {
+				display:block!important;
+				width:auto!important;
+				overflow:visible!important;
+				max-height:none!important;
+				font-size:inherit!important;
+				line-height:inherit!important;
+			}
+		}
+
+		@media only screen and (max-width:666px){
+			table.body table.container .hide-for-large, table.body table.container .row.hide-for-large{
+				display:table!important;
+				width:100%!important;
+			}
+		}
+
+		@media only screen and (max-width:666px) {
+			table.body table.container .callout-inner.hide-for-large{
+				display:table-cell!important;
+				width:100%!important;
+			}
+		}
+
+		@media only screen and (max-width:666px){
+			table.body table.container .show-for-large{
+				display:none!important;
+				width:0;
+				mso-hide:all;
+				overflow:hidden;
+			}
+		}
+
+		@media only screen and (max-width:666px){
+			table.body img{
+				width:auto;
+				height:auto;
+			}
+
+			table.body center{
+				min-width:0!important;
+			}
+
+			table.body .container{
+				width:95%!important;
+			}
+
+			table.body .column,table.body .columns{
+				height:auto!important;
+				-moz-box-sizing:border-box;
+				-webkit-box-sizing:border-box;
+				box-sizing:border-box;
+				padding-left:16px!important;
+				padding-right:16px!important;
+			}
+
+			table.body .column .column,table.body .column .columns,table.body .columns .column,table.body .columns .columns{
+				padding-left:0!important;
+				padding-right:0!important;
+			}
+
+			table.body .collapse .column,table.body .collapse .columns{
+				padding-left:0!important;
+				padding-right:0!important;
+			}
+
+			td.small-1,th.small-1{
+				display:inline-block!important;
+				width:8.33333%!important;
+			}
+
+			td.small-2,th.small-2{
+				display:inline-block!important;
+				width:16.66667%!important;
+			}
+
+			td.small-3,th.small-3{
+				display:inline-block!important;
+				width:25%!important;
+			}
+
+			td.small-4,th.small-4{
+				display:inline-block!important;
+				width:33.33333%!important;
+			}
+
+			td.small-5,th.small-5{
+				display:inline-block!important;
+				width:41.66667%!important;
+			}
+
+			td.small-6,th.small-6{
+				display:inline-block!important;
+				width:50%!important;
+			}
+
+			td.small-7,th.small-7{
+				display:inline-block!important;
+				width:58.33333%!important;
+			}
+
+			td.small-8,th.small-8{
+				display:inline-block!important;
+				width:66.66667%!important;
+			}
+
+			td.small-9,th.small-9{
+				display:inline-block!important;
+				width:75%!important;
+			}
+
+			td.small-10,th.small-10{
+				display:inline-block!important;
+				width:83.33333%!important;
+			}
+
+			td.small-11,th.small-11{
+				display:inline-block!important;
+				width:91.66667%!important;
+			}
+
+			td.small-12,th.small-12{
+				display:inline-block!important;
+				width:100%!important;
+			}
+
+			.column td.small-12,.column th.small-12,.columns td.small-12,.columns th.small-12{
+				display:block!important;
+				width:100%!important;
+			}
+
+			table.body td.small-offset-1,table.body th.small-offset-1{
+				margin-left:8.33333%!important;
+				margin-left:8.33333%!important;
+			}
+
+			table.body td.small-offset-2,table.body th.small-offset-2{
+				margin-left:16.66667%!important;
+				margin-left:16.66667%!important;
+			}
+
+			table.body td.small-offset-3,table.body th.small-offset-3{
+				margin-left:25%!important;
+				margin-left:25%!important;
+			}
+
+			table.body td.small-offset-4,table.body th.small-offset-4{
+				margin-left:33.33333%!important;
+				margin-left:33.33333%!important;
+			}
+
+			table.body td.small-offset-5,table.body th.small-offset-5{
+				margin-left:41.66667%!important;
+				margin-left:41.66667%!important;
+			}
+
+			table.body td.small-offset-6,table.body th.small-offset-6{
+				margin-left:50%!important;
+				margin-left:50%!important;
+			}
+
+			table.body td.small-offset-7,table.body th.small-offset-7{
+				margin-left:58.33333%!important;
+				margin-left:58.33333%!important;
+			}
+
+			table.body td.small-offset-8,table.body th.small-offset-8{
+				margin-left:66.66667%!important;
+				margin-left:66.66667%!important;
+			}
+
+			table.body td.small-offset-9,table.body th.small-offset-9{
+				margin-left:75%!important;
+				margin-left:75%!important;
+			}
+
+			table.body td.small-offset-10,table.body th.small-offset-10{
+				margin-left:83.33333%!important;
+				margin-left:83.33333%!important;
+			}
+
+			table.body td.small-offset-11,table.body th.small-offset-11{
+				margin-left:91.66667%!important;
+				margin-left:91.66667%!important;
+			}
+
+			table.body table.columns td.expander,table.body table.columns th.expander{
+				display:none!important;
+			}
+
+			table.body .right-text-pad,table.body .text-pad-right{
+				padding-left:10px!important;
+			}
+
+			table.body .left-text-pad,table.body .text-pad-left{
+				padding-right:10px!important;
+			}
+
+			table.menu{
+				width:100%!important;
+			}
+
+			table.menu td,table.menu th{
+				width:auto!important;
+				display:inline-block!important;
+			}
+
+			table.menu.small-vertical td,table.menu.small-vertical th,table.menu.vertical td,table.menu.vertical th {
+				display:block!important;
+			}
+
+			table.menu[align=center]{
+				width:auto!important;
+			}
+
+			table.button.small-expand,table.button.small-expanded{
+				width:100%!important;
+			}
+
+			table.button.small-expand table,table.button.small-expanded table{
+				width:100%;
+			}
+
+			table.button.small-expand table a,table.button.small-expanded table a{
+				text-align:center!important;
+				width:100%!important;
+				padding-left:0!important;
+				padding-right:0!important;
+			}
+
+			table.button.small-expand center,table.button.small-expanded center{
+				min-width:0;
+			}
+		}
+
+		@media only screen and (min-width:650px){
+			.mobile-only{
+				display:none!important;
+			}
+
+			.desktop-only{
+				display:block!important;
+			}
+		}
+
+		@media only screen and (max-width:649px){
+			.mobile-only{
+				display:block!important;
+			}
+
+			.desktop-only{
+				display:none!important;
+			}
+		}
+
+		@media only screen and (max-width:666px){
+			.buttonstack a{
+				width:320px!important;
+			}
+		}
+</style>
+
+<!-- BEGIN EMAIL BODY -->
+<body style="
+    -moz-box-sizing:border-box;
+    -moz-hyphens:normal;
+    -ms-text-size-adjust:100%;
+    -ms-word-break:normal;
+    -webkit-box-sizing:border-box;
+    -webkit-hyphens:normal;
+    -webkit-text-size-adjust:100%;
+    margin:0;
+    box-sizing:border-box;
+    color:#0a0a0a;
+    font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;
+    font-weight:300;hyphens:normal;
+    line-height:1.3;margin:0;
+    min-width:100%;
+    padding:0;
+    text-align:left;
+    width:100%!important;
+    word-break:normal;">
+	<!--[if mso]>
+    <style type=”text/css”>
+    html, body {
+    font-family: Arial, sans-serif;
+    }
+    </style>
+    <![endif]-->
+<table class="body" style="
+	margin:0;background:#EAEAEA;
+	border-collapse:collapse;
+	border-spacing:0;
+	color:#0a0a0a;
+	font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;
+	font-weight:300;
+	height:100%;
+	line-height:1.3;
+	margin:0;
+	padding:0;
+	text-align:left;
+	vertical-align:top;width:100%;">
+	<tbody>
+		<tr style="padding:0; text-align:left; vertical-align:top;">
+			<td align="center" class="center" style="
+			-moz-hyphens:auto; 
+			-webkit-hyphens:auto;
+			margin:0;
+			border-collapse:collapse!important;
+			color:#0a0a0a;
+			font-family:'Open Sans',Helvetica,Arial,sans-serif;
+			font-size:16px;
+			font-weight:300;
+			hyphens:auto;
+			line-height:1.3;
+			margin:0;padding:0;
+			text-align:left;
+			vertical-align:top;
+			word-wrap:break-word;" valign="top">
+			
+			<center data-parsed="" style="min-width:650px;width:100%">
+
+			<table align="center" class="container float-center" style="
+			margin:0 auto; 
+			background:#fefefe;
+			border-collapse:collapse; 
+			border-spacing:0; 
+			float:none; 
+			margin:0 auto;
+			padding:0;
+			text-align:center;
+			vertical-align:top;
+			width:650px;">
+				<tbody>
+					<tr style="padding:0; text-align:left; vertical-align:top;">
+						<td style="-moz-hyphens:auto; -webkit-hyphens:auto; margin:0; border-collapse:collapse!important; color:#0a0a0a; font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px; font-weight:300; hyphens:auto; line-height:1.3; margin:0; padding:0; text-align:left; vertical-align:top; word-wrap:break-word;">
+						<table class="row gray" style="background-color:#EAEAEA; border-collapse:collapse; border-spacing:0; display:none; padding:0; position:relative; text-align:left; vertical-align:top; width:100%;">
+							<tbody>
+								<tr style="padding:0; text-align:left; vertical-align:top;">
+									<th class="small-12 large-12 columns first last" style="margin:0 auto; color:#0a0a0a; display:none; font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px; font-weight:300; line-height:1.3; margin:0 auto;padding:0; padding-bottom:0; padding-left:16px; padding-right:16px; text-align:left; width:634px;">
+									<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left"><span style="display:none;color:#EAEAEA">
+													Create personalized photo cards in minutes.
+												</span></th>
+												<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
+											</tr>
+										</tbody>
+									</table>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+
+						<!-- BEGIN TOP LOGO SPACER -->
+						<table class="spacer gray" style="background-color:#EAEAEA;border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<td height="15px" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:15px;font-weight:300;hyphens:auto;line-height:15px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- END TOP LOGO SPACER -->
+
+						<!-- BEGIN LOGO -->
+						<table class="row gray logo-row" style="background-color:#EAEAEA;border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:30px;padding-top:30px;position:relative;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:left;width:634px" valign="middle">
+									<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left">
+												<center data-parsed="" style="min-width:602px;width:100%">
+													<img align="center" alt="| Kodak Alaris | " class="float-center" src="http://kodakmomentsimages.azureedge.net/2016/KM-Logo.gif" style="-ms-interpolation-mode:bicubic;margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto;" />
+												</center>
+												</th>
+												<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
+											</tr>
+										</tbody>
+									</table>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						<!-- END LOGO -->
+
+						<!-- BEGIN BOTTOM LOGO SPACER -->
+						<table class="spacer gray" style="background-color:#EAEAEA;border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<td height="15px" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:0;font-weight:300;hyphens:auto;line-height:0;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- END BOTTOM LOGO SPACER -->
+
+						<!-- START MODULE 1 -->
+						<table class="row collapse expander" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:0;padding-right:0;text-align:left;width:658px">
+									<!-- BEGIN HEADER HERO IMAGE -->
+									<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left">
+												<center data-parsed="" style="min-width:602px;width:100%">
+													<a align="center" class="float-center" href="https://v0eq.app.link/8Fqupzk9bE" style="margin:0;color:#EAEAEA;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none" universal="true">
+														<img alt="" src="http://kodakmomentsimages.azureedge.net/2017/2017-6-24-en-us-cards-image1.jpg" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:650px; margin: 0 auto;" width="650" />
+													</a>
+												</center>
+												</th>
+												<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0; display: none;">&nbsp;</th>
+											</tr>
+										</tbody>
+									</table>
+									<!-- END HEADER HERO IMAGE -->
+									</th>
+								</tr>
+							</tbody>
+						</table>
+
+						<!-- BEGIN SPACER 1 -->
+						<table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<td height="25px" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:25px;font-weight:300;hyphens:auto;line-height:25px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- END SPACER 1 -->
+
+						<!-- BEGIN PRINT TEXT -->
+						<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:left;width:634px">
+									<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left">
+												<center data-parsed="" style="min-width:602px;width:100%">
+												<p align="center" class="text-center small-title float-center" style="-moz-hyphens:none;-ms-word-break:normal;-webkit-hyphens:none;margin:0;margin-bottom:10px;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:.9em;font-weight:400;hyphens:none;letter-spacing:2px;line-height:1.1em;margin:0;margin-bottom:10px;padding:0;text-align:center;white-space:normal;word-break:normal">PRINT IN STORE</p>
+												</center>
+												</th>
+												<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
+											</tr>
+										</tbody>
+									</table>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						<!-- END HEADER PRINT TEXT -->
+						
+						<!-- BEGIN HEADER TEXT -->
+						<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:left;width:634px">
+									<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left">
+												<center data-parsed="" style="min-width:602px;width:100%">
+												<p align="center" class="text-center title float-center" style="-moz-hyphens:none;-ms-word-break:normal;-webkit-hyphens:none;margin:0;margin-bottom:10px;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:2.5em;font-weight:300;hyphens:none;line-height:1.1em;margin:0;margin-bottom:10px;padding:0;text-align:center;white-space:normal;width:80%;word-break:normal">Milestones and memories.</p>
+												</center>
+												</th>
+												<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
+											</tr>
+										</tbody>
+									</table>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						<!-- END HEADER TEXT -->
+
+						<!-- BEGIN SPACER 2 -->
+						<table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<td height="15px" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:15px;font-weight:300;hyphens:auto;line-height:15px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- END SPACER 2 -->
+
+						<!-- BEGIN MESSAGE TEXT -->
+						<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:left;width:634px">
+									<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left">
+												<p class="text-center text-content" style="-moz-hyphens:none;-webkit-hyphens:none;margin:0;margin-bottom:10px;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:1em;font-weight:300;hyphens:none;line-height:1.5em;margin:0 3%;margin-bottom:10px;overflow-wrap:normal;padding:0 3%;text-align:center;word-break:normal">
+													From anniversaries to baby announcements, celebrate your most important moments with a personalized photo card you can create in store at a KODAK Picture Kiosk today.
+												</p>
+												</th>
+												<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
+											</tr>
+										</tbody>
+									</table>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						<!-- END MESSAGE TEXT -->
+
+						<!-- BEGIN SPACER 3 -->
+						<table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<td height="20px" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:20px;font-weight:300;hyphens:auto;line-height:20px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- BEGIN SPACER 3 -->
+
+						<!-- BEGIN BUTTON ROW -->
+						<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<th class="small-10 large-6 columns" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:8px;padding-right:8px;text-align:left;width:293px; display: block;">
+										<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+											<tbody>
+												<tr style="padding:0;text-align:left;vertical-align:top">
+													<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left">
+													<center data-parsed="" style="min-width:277px;width:100%">
+														<table class="button button-text expanded float-center" style="margin:0 0 16px 0;align:center;border:0;border-collapse:collapse;border-spacing:0;float:none;font-weight:400;margin:0 0 16px 0;margin-left:auto;margin-right:auto;max-width:512px!important;padding:0;text-align:left;vertical-align:top;width:100%!important">
+														<tbody>
+															<tr style="padding:0;text-align:left;vertical-align:top">
+																<td style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+																	<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+																		<tbody>
+																		<tr style="padding:0;text-align:left;vertical-align:top">
+																			<td style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;background:#1C1C1C;border:0 solid #1C1C1C;border-collapse:collapse!important;color:#fefefe;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+																				<center data-parsed="" style="min-width:0;width:100%">
+																					<a align="center" class="float-center" href="https://v0eq.app.link/8Fqupzk9bE" style="margin:0;border:0 solid #1C1C1C;border-radius:3px;color:#fefefe;display:inline-block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:20px 60px 20px 60px;padding-left:0;padding-right:0;text-align:center;text-decoration:none;width:100%" universal="true">Find a Kiosk
+																				</a>
+																				</center>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</center>
+												</th>
+											</tr>
+										</tbody>
+									</table>
+									<!-- END BUTTON ROW -->
+
+									<!-- BEGIN SPACER ROW 4 -->
+									<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left">&nbsp;
+												</th>
+											</tr>
+										</tbody>
+									</table>
+									<!-- BEGIN SPACER ROW 4 -->
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						<!-- END MODULE 1 -->
+
+						<!-- BEGIN FOOTER CONTENT -->
+						<table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<td height="20px" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:20px;font-weight:300;hyphens:auto;line-height:20px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table class="spacer gray" style="background-color:#EAEAEA;border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<td height="20px" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:20px;font-weight:300;hyphens:auto;line-height:20px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- footer -->
+
+						<table align="center" bgcolor="#808080" class="wrapper" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+							<tbody>
+								<tr style="padding:0;text-align:left;vertical-align:top">
+									<td class="wrapper-inner" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+									<table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<td height="25px" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:25px;font-weight:300;hyphens:auto;line-height:25px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="row footer" style="background-color:grey;border-collapse:collapse;border-spacing:0;color:#dfdfdf;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:left;width:634px">
+												<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+													<tbody>
+														<tr style="padding:0;text-align:left;vertical-align:top">
+															<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left">
+															<center data-parsed="" style="min-width:602px;width:100%">
+															<table align="center" class="float-center" style="margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;height:auto;margin:0 auto;max-width:400px;min-width:320px;padding:0;text-align:center;vertical-align:top;width:auto">
+																<tbody>
+																	<tr align="center" class="text-center" style="padding:0;text-align:left;vertical-align:top">
+																		<td style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word"><a href="http://kodak.ly/1KfSBqG" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline"><img alt="Download from the App Store" class="store-icon float-center" src="http://kodakmomentsimages.azureedge.net/2016/applebadge.png" style="-ms-interpolation-mode:bicubic;margin:0 auto;border:none;clear:both;display:block;float:none;height:40px;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:135px" /></a></td>
+																		<td style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word"><a href="http://kodak.ly/1QxHWXv" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline"><img alt="Get it on Google Play" class="store-icon float-center" height="40" src="http://kodakmomentsimages.azureedge.net/2016/google-badge-new-small.jpg" style="-ms-interpolation-mode:bicubic;margin:0 auto;border:none;clear:both;display:block;float:none;height:40px;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:135px" width="135" /></a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</center>
+															</th>
+															<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
+														</tr>
+													</tbody>
+												</table>
+												</th>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<td height="16px" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:16px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="row footer" style="background-color:grey;border-collapse:collapse;border-spacing:0;color:#dfdfdf;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:left;width:634px">
+												<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+													<tbody>
+														<tr style="padding:0;text-align:left;vertical-align:top">
+															<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left">
+															<center data-parsed="" style="min-width:602px;width:100%"><a align="center" class="float-center" href="http://apps.kodakmoments.com" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline">Visit our site</a>&nbsp;&nbsp; | &nbsp;&nbsp;<a align="center" class="float-center" href="http://kmotd.kodakmoments.com/app/contact/landing/kodak" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline">Contact</a></center>
+															</th>
+															<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
+														</tr>
+													</tbody>
+												</table>
+												</th>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<td height="16px" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:16px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="row footer" style="background-color:grey;border-collapse:collapse;border-spacing:0;color:#dfdfdf;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:left;width:634px">
+												<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+													<tbody>
+														<tr style="padding:0;text-align:left;vertical-align:top">
+															<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left">
+															<center data-parsed="" style="min-width:602px;width:100%">
+															<table align="center" class="menu float-center" style="margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:auto!important">
+																<tbody>
+																	<tr style="padding:0;text-align:left;vertical-align:top">
+																		<td style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+																		<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+																			<tbody>
+																				<tr style="padding:0;text-align:left;vertical-align:top">
+																					<th alt="Facebook" class="menu-item float-center" style="margin:0 auto;color:#0a0a0a;float:none;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:10px;padding-right:10px;text-align:center"><a href="http://facebook.com/kodakmomentsus" style="margin:0;color:#EAEAEA;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline"><img alt="Facebook" height="29" src="http://kodakmomentsimages.azureedge.net/2016/fb.png" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto" width="29" /></a></th>
+																					<th alt="Instagram" class="menu-item float-center" style="margin:0 auto;color:#0a0a0a;float:none;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:10px;padding-right:10px;text-align:center"><a href="https://www.instagram.com/kodakmoments/" style="margin:0;color:#EAEAEA;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline"><img alt="Instagram" height="29" src="http://kodakmomentsimages.azureedge.net/2016/instagram.png" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto" width="29" /></a></th>
+																					<th alt="Twitter" class="menu-item float-center" style="margin:0 auto;color:#0a0a0a;float:none;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:10px;padding-right:10px;text-align:center"><a href="https://twitter.com/kodakmomentsus" style="margin:0;color:#EAEAEA;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline"><img alt="Twitter" height="29" src="http://kodakmomentsimages.azureedge.net/2016/twitter.png" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto" width="29" /></a></th>
+																					<th alt="Twitter" class="menu-item float-center" style="margin:0 auto;color:#0a0a0a;float:none;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:10px;padding-right:10px;text-align:center"><a href="https://www.pinterest.com/kodakmomentpins/" style="margin:0;color:#EAEAEA;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline"><img alt="Pinterest" height="29" src="http://kodakmomentsimages.azureedge.net/2016/pinterest.png" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto" width="29" /></a></th>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</center>
+															</th>
+															<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
+														</tr>
+													</tbody>
+												</table>
+												</th>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<td height="16px" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:16px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="row footer" style="background-color:grey;border-collapse:collapse;border-spacing:0;color:#dfdfdf;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:left;width:634px">
+												<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+													<tbody>
+														<tr style="padding:0;text-align:left;vertical-align:top">
+															<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left">
+															<p class="footer-block" style="-moz-hyphens:manual;-webkit-hyphens:manual;margin:0;margin-bottom:10px;color:#dfdfdf;display:inline-block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:1em;font-weight:300;hyphens:manual;line-height:1.3;margin:0;margin-bottom:10px;overflow-wrap:normal;padding:0;text-align:left;word-break:keep-all">&copy; 2017 Kodak Alaris Inc.</p>
+
+															<p class="footer-block" style="-moz-hyphens:manual;-webkit-hyphens:manual;margin:0;margin-bottom:10px;color:#dfdfdf;display:inline-block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:1em;font-weight:300;hyphens:manual;line-height:1.3;margin:0;margin-bottom:10px;overflow-wrap:normal;padding:0;text-align:left;word-break:keep-all">The Kodak and Kodak Moment trademarks and Kodak trade dress are used under license from Eastman Kodak Company.</p>
+
+															<p class="footer-block" style="-moz-hyphens:manual;-webkit-hyphens:manual;margin:0;margin-bottom:10px;color:#dfdfdf;display:inline-block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:1em;font-weight:300;hyphens:manual;line-height:1.3;margin:0;margin-bottom:10px;overflow-wrap:normal;padding:0;text-align:left;word-break:keep-all">The sender of this email is Kodak Alaris Inc., <span class="footeraddress"><a href="http://www.kodakalaris.com/en-us/about/company-information" style="margin:0;color:#DFDFDF;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">2400 Mount Read Blvd., Rochester, NY 14615.</a></span></p>
+
+															<p class="footer-block" style="-moz-hyphens:manual;-webkit-hyphens:manual;margin:0;margin-bottom:10px;color:#dfdfdf;display:inline-block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:1em;font-weight:300;hyphens:manual;line-height:1.3;margin:0;margin-bottom:10px;overflow-wrap:normal;padding:0;text-align:left;word-break:keep-all">To ensure delivery of our emails to your inbox, add <span class="footeraddress"><a href="mailto:askus@offers.kodakmoments.com" style="margin:0;color:#DFDFDF;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">askus@offers.kodakmoments.com</a></span> to your address book.</p>
+
+															<p class="footer-block" style="-moz-hyphens:manual;-webkit-hyphens:manual;margin:0;margin-bottom:10px;color:#dfdfdf;display:inline-block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:1em;font-weight:300;hyphens:manual;line-height:1.3;margin:0;margin-bottom:10px;overflow-wrap:normal;padding:0;text-align:left;word-break:keep-all">Any special offer in this communication is for residents of the fifty US States only.</p>
+
+															<p class="footer-block" style="-moz-hyphens:manual;-webkit-hyphens:manual;margin:0;margin-bottom:10px;color:#dfdfdf;display:inline-block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:1em;font-weight:300;hyphens:manual;line-height:1.3;margin:0;margin-bottom:10px;overflow-wrap:normal;padding:0;text-align:left;word-break:keep-all">For questions about our products or services, please email us at <a href="http://kmotd.kodakmoments.com/app/contact/landing/kodak" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline">Kodak Alaris website</a>.</p>
+
+															<p class="footer-block" style="-moz-hyphens:manual;-webkit-hyphens:manual;margin:0;margin-bottom:10px;color:#dfdfdf;display:inline-block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:1em;font-weight:300;hyphens:manual;line-height:1.3;margin:0;margin-bottom:10px;overflow-wrap:normal;padding:0;text-align:left;word-break:keep-all">For Information about our products go to the <a href="http://apps.kodakmoments.com" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline">Kodak Moments website</a>.</p>
+
+															<p class="footer-block" style="-moz-hyphens:manual;-webkit-hyphens:manual;margin:0;margin-bottom:10px;color:#dfdfdf;display:inline-block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:1em;font-weight:300;hyphens:manual;line-height:1.3;margin:0;margin-bottom:10px;overflow-wrap:normal;padding:0;text-align:left;word-break:keep-all">This email was sent to {{special.email}}. You have received this because you agreed to receive email from our company about consumer products, offers and services. If you prefer not to receive this kind of email, <a href="http://apps.kodakmoments.com/unsubscribe/unsubscribe.php?lang=en-US&amp;email={{special.email}}" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline">click here to unsubscribe</a>.</p>
+
+															<p class="footer-block" style="-moz-hyphens:manual;-webkit-hyphens:manual;margin:0;margin-bottom:10px;color:#dfdfdf;display:inline-block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:1em;font-weight:300;hyphens:manual;line-height:1.3;margin:0;margin-bottom:10px;overflow-wrap:normal;padding:0;text-align:left;word-break:keep-all">Kodak Alaris Inc. respects your privacy. For more information, visit the <a href="http://www.kodakalaris.com/privacy-policy" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline">privacy policy page</a>.</p>
+															</th>
+															<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
+														</tr>
+													</tbody>
+												</table>
+												</th>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+										<tbody>
+											<tr style="padding:0;text-align:left;vertical-align:top">
+												<td height="16px" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:16px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</center>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- prevent Gmail on iOS font size manipulation -->
+
+<div style="display:none;white-space:nowrap;font:15px courier;line-height:0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+</body>
+</html>
