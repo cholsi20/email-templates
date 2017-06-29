@@ -298,10 +298,46 @@
 
 		/* BEGIN MOBILE STYLING */
 		@media only screen and (max-width: 649px) {
+
 			table {
 				width: 100% !important;
 			}
 
+			.mobile-cell-full-width {
+				width: 100% !important;
+				display: block !important;
+				border: 0 !important;
+			}
+
+			/* FOOTER STYLING */
+
+			.mobile-font-size-footer a {
+				font-size: 23px !important;
+				text-align: center !important;
+			}
+			
+			.mobile-font-size-footer p {
+				font-size: 23px !important;
+				text-align: center !important;
+			}
+
+			.padding_left th {
+				padding: 0 !important;
+				/*display: inline-block !important;*/
+			}
+			
+			.padding_left img {
+				margin: 0 auto !important;
+			}
+
+			.spacer-top img {
+				padding-top: 38px !important;
+			}
+
+			.footer-app-images {
+				width: 234px !important;
+				height: auto !important;
+			}
 		}
 </style>
 
@@ -418,10 +454,9 @@
 											<tr style="padding:0;text-align:left;vertical-align:top">
 												<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left">
 												<center data-parsed="" style="min-width:602px;width:100%">
-													<img align="center" alt="| Kodak Alaris | " class="float-center" src="http://kodakmomentsimages.azureedge.net/2016/KM-Logo.gif" style="-ms-interpolation-mode:bicubic;margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto;" />
+													<img align="center" alt="| Kodak Alaris | " title="Kodak Moments" class="float-center" src="http://kodakmomentsimages.azureedge.net/2016/KM-Logo.gif" style="-ms-interpolation-mode:bicubic;margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto;" />
 												</center>
 												</th>
-												<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
 											</tr>
 										</tbody>
 									</table>
@@ -457,7 +492,6 @@
 													</a>
 												</center>
 												</th>
-												<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0; display: none;">&nbsp;</th>
 											</tr>
 										</tbody>
 									</table>
@@ -481,16 +515,15 @@
 						<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
 							<tbody>
 								<tr style="padding:0;text-align:left;vertical-align:top">
-									<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:left;width:634px">
+									<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:center;width:634px">
 									<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
 										<tbody>
-											<tr style="padding:0;text-align:left;vertical-align:top">
+											<tr style="padding:0;text-align:center;vertical-align:top">
 												<th style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left">
 												<center data-parsed="" style="min-width:602px;width:100%">
 												<p align="center" class="text-center small-title float-center" style="-moz-hyphens:none;-ms-word-break:normal;-webkit-hyphens:none;margin:0;margin-bottom:10px;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:.9em;font-weight:400;hyphens:none;letter-spacing:2px;line-height:1.1em;margin:0;margin-bottom:10px;padding:0;text-align:center;white-space:normal;word-break:normal">PRINT IN STORE</p>
 												</center>
 												</th>
-												<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
 											</tr>
 										</tbody>
 									</table>
@@ -504,7 +537,7 @@
 						<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
 							<tbody>
 								<tr style="padding:0;text-align:left;vertical-align:top">
-									<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:left;width:634px">
+									<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:center;width:634px">
 									<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
 										<tbody>
 											<tr style="padding:0;text-align:left;vertical-align:top">
@@ -513,7 +546,6 @@
 												<p align="center" class="text-center title float-center" style="-moz-hyphens:none;-ms-word-break:normal;-webkit-hyphens:none;margin:0;margin-bottom:10px;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:2.5em;font-weight:300;hyphens:none;line-height:1.1em;margin:0;margin-bottom:10px;padding:0;text-align:center;white-space:normal;width:80%;word-break:normal">Milestones and memories.</p>
 												</center>
 												</th>
-												<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
 											</tr>
 										</tbody>
 									</table>
@@ -536,7 +568,7 @@
 						<!-- BEGIN MESSAGE TEXT -->
 						<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
 							<tbody>
-								<tr style="padding:0;text-align:left;vertical-align:top">
+								<tr style="padding:0;text-align:center;vertical-align:top">
 									<th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:left;width:634px">
 									<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
 										<tbody>
@@ -546,7 +578,6 @@
 													From anniversaries to baby announcements, celebrate your most important moments with a personalized photo card you can create in store at a KODAK Picture Kiosk today.
 												</p>
 												</th>
-												<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
 											</tr>
 										</tbody>
 									</table>
@@ -569,7 +600,7 @@
 						<!-- BEGIN BUTTON ROW -->
 						<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
 							<tbody>
-								<tr style="padding:0;text-align:left;vertical-align:top">
+								<tr style="padding:0;text-align:center;vertical-align:top">
 									<th class="small-10 large-6 columns" style="margin:0 auto;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:8px;padding-right:8px;text-align:left;width:293px; display: block;">
 										<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
 											<tbody>
@@ -662,16 +693,41 @@
 															<table align="center" class="float-center" style="margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;height:auto;margin:0 auto; width:475px; min-width:320px;padding:0;text-align:center;vertical-align:top; /*border: 1px solid green;*/">
 																<tbody>
 																	<tr style="padding:0;text-align:left;vertical-align:top">
-																		<td style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left; /*border: 1px solid purple;*/ vertical-align: middle;">
+
+																		<!-- BEGIN APP DOWNLOAD COPY -->
+																		<td style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left; vertical-align: middle;" class="mobile-cell-full-width mobile-font-size-footer">
 																		<center data-parsed="" style="min-width:133px;width: 100%;">
-																			<p class="text-center text-content" style="-moz-hyphens:none;-webkit-hyphens:none;margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:1em;font-weight:300;hyphens:none;line-height:1.5em;overflow-wrap:normal;text-align:left;word-break:normal; margin-right: 10px; /*border: 1px solid blue;*/">
+																			<p class="text-center text-content" style="-moz-hyphens:none;-webkit-hyphens:none;margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:1em;font-weight:300;hyphens:none;line-height:1.5em;overflow-wrap:normal;text-align:left;word-break:normal; margin-right: 10px;">
 																				Download the app
 																			</p>
 																			</center>
 																		</td>
-																																	
-																		<td style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word"><a href="http://kodak.ly/1KfSBqG" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline"><img alt="Download from the App Store" title="Download from the App Store" class="store-icon float-center" src="http://kodakmomentsimages.azureedge.net/2016/applebadge.png" style="-ms-interpolation-mode:bicubic;margin:0 auto;border:none;clear:both;display:block;float:none;height:40px;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:135px" /></a></td>
-																		<td style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word"><a href="http://kodak.ly/1QxHWXv" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline"><img alt="Get it on Google Play" title="Get it on Google Play" class="store-icon float-center" height="40" src="http://kodakmomentsimages.azureedge.net/2016/google-badge-new-small.jpg" style="-ms-interpolation-mode:bicubic;margin:0 auto;border:none;clear:both;display:block;float:none;height:40px;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:135px" width="135" /></a></td>
+																		<!-- END APP DOWNLOAD COPY -->
+																			
+																		<!-- BEGIN APP STORE LINKS -->
+																		<td style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word" class="mobile-cell-full-width">
+																		<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%" class="padding_left spacer-top">
+																		<tbody>
+																			<tr style="padding:0;text-align:left;vertical-align:top">
+
+																			<!-- BEGIN APPLE APP STORE -->
+																			<td style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;">
+																		<a href="http://kodak.ly/1KfSBqG" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline"><img alt="Download from the App Store" title="Download from the App Store" class="store-icon float-center footer-app-images" src="http://kodakmomentsimages.azureedge.net/2016/applebadge.png" style="-ms-interpolation-mode:bicubic;margin:0 auto;border:none;clear:both;display:block;float:none;height:40px;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:135px" />
+																		</a>
+																		</td>
+																		<!-- END APPLE APP STORE -->
+
+																		<!-- BEGIN GOOGLE PLAY -->
+																		<td style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+																		<a href="http://kodak.ly/1QxHWXv" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline">
+																		<img alt="Get it on Google Play" title="Get it on Google Play" class="store-icon float-center footer-app-images" height="40" src="http://kodakmomentsimages.azureedge.net/2016/google-badge-new-small.jpg" style="-ms-interpolation-mode:bicubic;margin:0 auto;border:none;clear:both;display:block;float:none;height:40px;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:135px;" width="135" />
+																		</a>
+																		</td>
+																		<!-- END GOOGLE PLAY -->
+																		</tr>
+																		</tbody>
+																		</table>
+																		<!-- END APP STORE LINKS -->
 																	</tr>
 																</tbody>
 															</table>
@@ -713,7 +769,7 @@
 															<tr style="padding:0;text-align:left;vertical-align:top">
 															
 															<!-- BEGIN SITE CONTACT AND VISIT LINKS -->
-															<td class="" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left; vertical-align: middle; width: 50%;">
+															<td class="mobile-cell-full-width mobile-font-size-footer" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left; vertical-align: middle; width: 50%;">
 															
 															<center data-parsed="" style="width:100%;">
 
@@ -723,8 +779,8 @@
 															<!-- END SITE CONTACT AND VISIT LINKS -->
 
 															<!-- BEGIN SOCIAL MEDIA LINKS -->
-															<td style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
-																	<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+															<td style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word" class="mobile-cell-full-width">
+																	<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%" class="padding_left spacer-top">
 																		<tbody>
 																			<tr style="padding:0;text-align:left;vertical-align:top">
 																					<!-- BEGIN FACEBOOK -->
@@ -795,6 +851,7 @@
 										</tbody>
 									</table>
 
+									<!-- BEGIN LEGAL FOOTER COPY -->
 									<table class="row footer" style="background-color:grey;border-collapse:collapse;border-spacing:0;color:#dfdfdf;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
 										<tbody>
 											<tr style="padding:0;text-align:left;vertical-align:top">
@@ -814,7 +871,6 @@
 																The sender of this email is Kodak Alaris Inc., 2400 Mount Read Blvd, Rochester, NY, 14615.
 															</p>
 															</th>
-															<th class="expander" style="margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
 														</tr>
 													</tbody>
 												</table>
@@ -822,6 +878,7 @@
 											</tr>
 										</tbody>
 									</table>
+									<!-- END LEGAL FOOTER COPY -->
 
 									<table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
 										<tbody>
