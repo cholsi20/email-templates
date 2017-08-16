@@ -59,10 +59,10 @@
 	}
 
 	/* MOBILE STYLING */
-	@media only screen and (max-width:640px) {
+	@media only screen and (max-width:599px) {
 		/*Logo Styling */
 		#kodak-logo {
-			width: 42% !important;
+			width: 40% !important;
 			height: auto !important;
 			max-height: none !important;
 		}
@@ -99,11 +99,11 @@
 		}
 
 		.large-text-size-adjust p {
-			font-size: 24px !important;
+			font-size: 26px !important;
 		}
 
 		.body-text-size-adjust p, .body-text-size-adjust a {
-			font-size: 12px !important;
+			font-size: 14px !important;
 		}
 
 		table.button {
@@ -145,7 +145,7 @@
 		}	
 
 		.mobile-cell-full-width span {
-			font-size: 12px !important;
+			font-size: 14px !important;
 		}
 
 		.mobile-social table {
@@ -162,10 +162,15 @@
 			/*border: 1px solid green !important; */
 		}
 
+		.icon-size-adjust td {
+			width: 50% !important;
+		}
+
 		.icon-size-adjust img {
 			text-align: center !important;
 			margin: 0 auto !important;
-			width: 90% !important;
+			width: 95% !important;
+			height: auto !important;
 		}
 
 		.apple-links {
@@ -205,7 +210,9 @@
 
 <!--[if mso]>
 <style type="text/css">
-body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !important;}
+body, table, td, p, a, span {
+	font-family: Arial, Helvetica, sans-serif !important;
+	}
 </style>
 <![endif]-->
 
@@ -220,8 +227,8 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
     <table class="mobile-container" width="650" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#EAEAEA" style="margin: 0 auto; width: 650px; min-width: 650px;">
 		<!-- BEGIN GRAY SPACER -->
 		<tr>
-			<td class="one-hundred-percent" align="center" width="100%" height="15" bgcolor="#EAEAEA" style="text-align: center; width: 100%;min-width: 100%;">
-			&nbsp;
+			<td class="one-hundred-percent" align="center" width="100%" height="15" bgcolor="#EAEAEA" style="text-align: center; width: 100%;min-width: 100%; line-height: 1em;">
+				<span style="line-height: 0;">&nbsp;</span>
 			</td>
 		</tr>
 		<!-- END GRAY SPACER -->
@@ -229,25 +236,25 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 		<!-- BEGIN LOGO -->
 		<tr>
 			<td class="one-hundred-percent" align="center" width="100%" bgcolor="#EAEAEA" style="text-align: center; background-color: #EAEAEA; width: 100%;">
-				<img id="kodak-logo" align="center" alt="| Kodak Alaris | " title="Kodak Moments" width="26%" src="http://kodakmomentsimages.azureedge.net/2016/KM-Logo.gif" border="0" style="-ms-interpolation-mode:bicubic; margin:0 auto; display:block; margin:0 auto; border: 0; outline:0; text-align:center; text-decoration:none; width:26%; padding: 0; border-style: none;" />
+				<img id="kodak-logo" align="center" alt="| Kodak Alaris | " title="Kodak Moments" width="150" src="http://kodakmomentsimages.azureedge.net/2016/KM-Logo.gif" border="0" style="-ms-interpolation-mode:bicubic; margin:0 auto; padding: 0; display:block; outline:0; text-align:center; text-decoration:none; width:26%; padding: 0; border-style: none; border: 0; width: 150px;" />
 			</td>
 		</tr>
 		<!-- END LOGO -->
 
 		<!-- BEGIN GRAY SPACER -->
 		<tr>
-			<td class="one-hundred-percent" align="center" width="100%" height="15" bgcolor="#EAEAEA" style="text-align: center; width: 100%;min-width: 100%;">
-			&nbsp;
+			<td class="one-hundred-percent" align="center" width="100%" height="15" bgcolor="#EAEAEA" style="text-align: center; width: 100%;min-width: 100%; ">
+				<span style="line-height: 0;">&nbsp;</span>
 			</td>
 		</tr>
 		<!-- END GRAY SPACER -->
 	</table>
 
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ START MODULE 1 -->
-	<table class="mobile-container" bgcolor="#FFFFFF" width="650" cellpadding="0" cellspacing="0" border="0" align="center" style="margin: 0 auto; width: 650px;">
+	<table class="mobile-container" bgcolor="#FFFFFF" width="650" cellpadding="0" cellspacing="0" border="0" align="center" style="margin: 0 auto; padding: 0; width: 650px;">
 		<!-- BEGIN HERO IMAGE -->
 		<tr>
-			<td class="one-hundred-percent" align="center" width="100%" bgcolor="#FFFFFF" style="text-align: center; width:100%;">
+			<td class="one-hundred-percent" align="center" width="100%" bgcolor="#FFFFFF" style="text-align: center; width:100%;margin:0; padding: 0;">
 				<img align="center" alt="[HERO IMAGE ALT TEXT HERE]" title="[HERO IMAGE TITLE HERE]" id="hero-image" src="http://kodakmomentsimages.azureedge.net/2017/2017-7-12-en-us-mini-image1.jpg" border="0" style="-ms-interpolation-mode:bicubic; margin:0 auto; display:block; outline:0; text-align:center; text-decoration:none; width:100%; padding: 0; border: 0; border-style: none; height: auto;" />
 			</td>
 		</tr>
@@ -255,15 +262,15 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 
 		<!-- BEGIN WHITE SPACER -->
 		<tr>
-			<td class="one-hundred-percent kicker-text-spacer-adjust" align="center" width="100%" height="77" bgcolor="#FFFFFF" style="text-align: center; width: 100%;">
-			&nbsp;
+			<td class="one-hundred-percent header-text-size-adjust" align="center" width="100%" height="45" bgcolor="#FFFFFF" style="margin:0; padding: 0;text-align: center; width: 100%; ">
+				<span style="line-height: 0;">&nbsp;</span>
 			</td>
 		</tr>
 		<!-- END WHITE SPACER -->
 
 		<!-- BEGIN KICKER TEXT -->
 		<tr>
-			<td class="body-text-size-adjust" align="center" width="100%" bgcolor="#FFFFFF" style="text-align: center; width: 100%;">
+			<td class="body-text-size-adjust" align="center" width="100%" bgcolor="#FFFFFF" style="text-align: center; width: 100%;margin:0; padding: 0;">
 				<p class="" align="center" width="100%" style="-moz-hyphens:none;-ms-word-break:normal;-webkit-hyphens:none;margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:.9em;font-weight:400;hyphens:none;letter-spacing:2px;line-height:1.1em;margin:0 auto;padding:0;text-align:center;white-space:normal;word-break:normal, text-transform: uppercase; width: 100%;">PRINT IN STORE
 				</p>
 			</td>
@@ -272,7 +279,7 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 
 		<!-- BEGIN WHITE SPACER -->
 		<tr>
-			<td class="one-hundred-percent header-text-size-adjust" align="center" width="100%" height="41" bgcolor="#FFFFFF" style="text-align: center; width: 100%;">
+			<td class="one-hundred-percent header-text-size-adjust" align="center" width="100%" height="35" bgcolor="#FFFFFF" style="text-align: center; width: 100%;margin:0; padding: 0; ">
 			&nbsp;
 			</td>
 		</tr>
@@ -280,7 +287,7 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 
 		<!-- BEGIN HEADER TEXT -->
 		<tr>
-			<td class="large-text-size-adjust" align="center" width="100%" bgcolor="#FFFFFF" style="text-align: center; width: 100%;">
+			<td class="large-text-size-adjust" align="center" width="100%" bgcolor="#FFFFFF" style="text-align: center; width: 100%;margin:0; padding: 0;">
 				<p class="" align="center" width="100%" style="-moz-hyphens:none; -ms-word-break:normal;-webkit-hyphens:none;Margin:0;color:#0a0a0a;font-family:'Open Sans',Helvetica,Arial,sans-serif; font-size:2.5em; font-weight:300; hyphens:none; line-height:1.1em;margin:0; padding:0; text-align:center; white-space:normal; word-break:normal;width: 100%;">Milestones&nbsp;and memories.
 				</p>
 			</td>
@@ -289,15 +296,15 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 
 		<!-- BEGIN WHITE SPACER -->
 		<tr>
-			<td class="one-hundred-percent body-copy-spacer-adjust" align="center" width="100%" height="35" bgcolor="#FFFFFF" style="text-align: center; width: 100%;">
-			&nbsp;
+			<td class="one-hundred-percent body-copy-spacer-adjust" align="center" width="100%" height="35" bgcolor="#FFFFFF" style="margin:0; padding: 0;text-align: center; width: 100%; ">
+				<span style="line-height: 0;">&nbsp;</span>
 			</td>
 		</tr>
 		<!-- END WHITE SPACER -->		
 
 		<!-- BEGIN BODY COPY -->
 		<tr>
-			<td class="body-text-size-adjust text-padding" align="center" width="100%" bgcolor="#FFFFFF" style="text-align: center;margin: 0 auto;">
+			<td class="body-text-size-adjust text-padding" align="center" width="100%" bgcolor="#FFFFFF" style="text-align: center;margin: 0 auto; padding: 0;">
 				<table class="mobile-paragraph-table" cellpadding="0" cellspacing="0" border="0" align="center" width="520" style="border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:520px;">
 					<tr>
 						<td class="one-hundred-percent" align="center" width="100%" style="margin:0;padding:0;vertical-align: middle; display: block; width: 100%; text-align: center;">
@@ -313,8 +320,8 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 
 		<!-- BEGIN WHITE SPACER -->
 		<tr>
-			<td class="one-hundred-percent body-copy-spacer-adjust" align="center" width="100%" height="42" bgcolor="#FFFFFF" style="text-align: center; width: 100%;">
-			&nbsp;
+			<td class="one-hundred-percent body-copy-spacer-adjust" align="center" width="100%" height="42" bgcolor="#FFFFFF" style="text-align: center; width: 100%; ">
+				<span style="line-height: 0;">&nbsp;</span>
 			</td>
 		</tr>
 		<!-- END WHITE SPACER -->
@@ -337,16 +344,16 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 
 		<!-- BEGIN WHITE SPACER -->
 		<tr>
-			<td class="one-hundred-percent body-copy-spacer-adjust" align="center" width="100%" height="46" bgcolor="#FFFFFF" style="text-align: center; width: 100%;">
-			&nbsp;
+			<td class="one-hundred-percent body-copy-spacer-adjust" align="center" width="100%" height="46" bgcolor="#FFFFFF" style="text-align: center; width: 100%; ">
+				<span style="line-height: 0;">&nbsp;</span>
 			</td>
 		</tr>
 		<!-- END WHITE SPACER -->
 
 		<!-- BEGIN GRAY SPACER -->
 		<tr>
-			<td class="one-hundred-percent" align="center" width="100%" height="20" bgcolor="#EAEAEA" style="text-align: center; width: 100%;">
-			&nbsp;
+			<td class="one-hundred-percent" align="center" width="100%" height="20" bgcolor="#EAEAEA" style="text-align: center; width: 100%; ">
+				<span style="line-height: 0;">&nbsp;</span>
 			</td>
 		</tr>
 		<!-- END GRAY SPACER -->
@@ -361,8 +368,8 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 				<table class="mobile-footer-table" width="555" align="center" style="margin:0 auto;float:none;height:auto; padding:0;text-align:center;vertical-align:top; width: 555px; border-bottom: 1px solid #ffffff;">
 					<!-- BEGIN SPACER -->
 					<tr>
-						<td class="one-hundred-percent body-copy-spacer-adjust" align="center" width="100%" height="25" bgcolor="#808080" style="text-align: center; width: 100%;">
-						&nbsp;
+						<td class="one-hundred-percent body-copy-spacer-adjust" align="center" width="100%" height="25" bgcolor="#808080" style="text-align: center; width: 100%; ">
+							<span style="line-height: 0;">&nbsp;</span>
 						</td>
 					</tr>
 					<!-- END SPACER -->
@@ -381,16 +388,16 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 								<tr>
 									<!-- BEGIN APPLE STORE DOWNLOAD ICON -->
 									<td class="" width="49%" style="margin:0;padding:0;text-align:center;vertical-align:middle; width: 49%; display: inline-block; /*border: 1px solid purple;*/">
-										<a href="http://kodak.ly/1KfSBqG" style="margin:0;padding:0;color:#ffffff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none;hyphens:auto;-moz-hyphens:auto;-webkit-hyphens:auto;font-size:16px;">
-											<img class="" alt="Download from the App Store" title="Download from the App Store" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJwAAAAvCAMAAAAhOFOkAAAAdVBMVEWsrKyys7YEBAT///+ys7ays7ays7axs7VMaXGys7ays7YPDw9WVlbi4uIkJCQbGxvy8vLDw8P6+vo4ODjS0tKioqKVlZVBQUHLy8tMTEzr6+t9fX0JCQmFhYV3d3fa2tpnZ2crKytgYGC7u7szMzNwcHCMjIyezthPAAAACnRSTlP/SP//nlGm7QAl4/FikAAABPdJREFUWMPtmdly4zYQRZF7Z2KbxEYQJLjv0v9/Yh5IyZJFlzwTp8JUBU8ShOWoN3QD4vX17c+X6HDt5cfb66t4/Skmg8M1Pbz88SrexIhDtvTlTfyYcNB2+iFezFHhxhcRHZUNcfRfhhvP3a8uKeOHPiM/H//5b8/gzo7ZQ2dduSpaPo0BTB/6Sn62PyDtb8IJkvVDbz6bUdjxG+C65PfhBpJOP8JFANQZTa68RPBN7FOIAb7uiwWaKYxQSQCy3k9AWvRihYszVZRAUvsiBYCysj6WNldZA+TKh1+BUyRz7MOJCHk/dm6JXZCujV0Km4QigmaKeda5jVGazgJKLPMKlxW6dRrKhzlZYX0KyVo6ic6buv8FuIVkEn8CNwuoGqg6JHWWFaUC7ITaQzONWcKwRBn1jBeOF7XaAY0boE4YKgBAmwDSAb7G7LOI8dfhJG3bYB/O2BNUB1Qd6qgfbZ4DVqK7hUs5BcYjR8gbuAlqwGDf4SzgWxRCStl8BW6ZhhQwoUHo6uGj1eVJKr2PkfV6cCMW6zHb8gYOxWzyKp6crmma6qrWqNC1NTdwtUovcOc+6OULapU9Sap2SfOKJDnfe2bdq6SNgVhUvQSQdJiKBkhKTALaj9CzLQLiucq8RuhV62MAMFHlS2CWkMnq2V6hTABxQpMrdX4Od+ZDs+EgJ0THneaPAaftHps5BtyOUmn1QQ5+tQNXHyQrMXsW9yg4nWXZl1St80L1c9d8C1y6w1btnNgkT19YX64W7NbQ3/xNuLADpx7nJbScny9vLFVXyjwDoLMq/Qfg3OOm5JnuuV47vudPkkz/CZsrH3OpypDDuqk0CHVbrlmtRCPr+kKRkxdVlmeykxIAzNDWZQMApdSQrQEwdudufOqte2HuQYEzBTzXmY7TTJKFAQKZ9iQv6XP37ulrFLAAWkeS/QLAs4vIFMhJku0zuHlPdB/qiNhxQruZuWXFJO/JBEjJyomsuuxjLBmlW7ZARlkGnMn5lDtWGihYkDbFmbaWOTk9gav34HifOk10MRZSbqI+AU1ElkhJmwJG0a7+WVqSSbixuZEU67cMSMjEANpxAiA+nJKPcOMuHMV9aTEDUGunYr/Ny6E3hQ4bOKAzt0l+g2vJEQAKWiBZq4B6DQiSNE8O/mQXbrgZ0VgWeZ73tM07IyrO0Fv0G29OFXN2ZLjCRVvYzEmNZP1jgtZ77xW5PIGTe2xVfFdL3bqx2qy/ZwK9/QtzZ9wlmV3hNp5VggmTezsfn+VzxQ7c3WmQ0XZd19WrDi+SsxRXyaX3M3omN5Kz2yKML3CCxVdLw8U9sN3PrTacgtW7zQWyvtpcex9wFSOgJMPqcAFAo9jjAlfvB/TdNP3BYe8L6HBx+XUfRbaA6ek0NOlKINjN72SrgTgnByBdy0zjWMTAmTxd4bRjYgCYr1Rf4gPcffjJL041kjmg6KgKR9aAJh29J124LFQpRyYN0FiyioATqUSxRvYNDifSFUn/NM4BQJOR9N2iQ16RdvqY8SVXW1KAoshI2g6AJuuCpNoOvK4iSXtuLhlKAWCqSLq8uYHbaqrqK3DAKDdNNiF8LKvjOL79pJhBl+soTQ5Yyht7G8vyGh7iEFaRp9vwm6WgQ9Dffz+nbu6h9H1A/PcvD/+H+92WZ+88JsvCt8Id+jb90O8Qh37Bef0pJt0cjaxZ376O/Gr4FyfSlhR6/bCcAAAAAElFTkSuQmCC" style="-ms-interpolation-mode:bicubic;margin:0 auto;border:none;display:block;margin:0 auto; height: auto; outline:0;text-align:center;text-decoration:none;width:auto; border-style: none;" />
+										<a href="http://kodak.ly/1KfSBqG" style="margin:0;padding:0;color:#ffffff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none;hyphens:auto;-moz-hyphens:auto;-webkit-hyphens:auto;font-size:16px; width: 100%;" width="100%">
+											<img class="" alt="Download from the App Store" title="Download from the App Store" border="0" src="http://images.kodakmoments.com/email-icons/app-store.png" width="165" style="-ms-interpolation-mode:bicubic;margin:0 auto;border:none;display:block;margin:0 auto; height: auto; outline:0;text-align:center;text-decoration:none;width:165px; height: auto; border-style: none;" />
 										</a>
 									</td>
 									<!-- END APPLE STORE DOWNLOAD ICON -->
 
 									<!-- BEGIN GOOGLE PLAY STORE DOWNLOAD ICON -->
 									<td class="" width="49%" style="margin:0;padding:0;text-align:center;vertical-align:middle; width: 49%; display: inline-block; /*border: 1px solid blue;*/">
-										<a href="http://kodak.ly/1QxHWXv" style="margin:0;padding:0;color:#ffffff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none;hyphens:auto;-moz-hyphens:auto;-webkit-hyphens:auto;font-size:16px;">
-											<img class="" alt="Get it on Google Play" title="Get it on Google Play" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJwAAAAwCAMAAADTuOPqAAABL1BMVEWVlZUEBASnp6f///9fX19ycnJ1dXWPj49MaXFbW1tbyvSdnZ1zwWmWlpZ4eHi2trbs7Oy8vLwxa4EGBgYPDg3V1dVSUlLe3t7pPlCDg4MKCgonKCfiNljJycn29vbuQkpnZ2fFxcUTFBM2Njb5+fnx8fE+Pj4uLi6IiIj+0gjl5eVgYGD9/f0XFxdJSUkdIB1aWlr+2QKlpaX+ywttbW1DQ0POzs5ra2vBwcFtvmpouGr/4ABmr2WampqhoaF1dXX0wBpdye2ioqJ8fHyysrLVQUvcR0Bdxd1tXgl0sFokFQtgq3Fqwuu/RmPNOlRWp4KvU3iurq6rq6tIekN/stUrSipZmFSUJzRaFyK5L0M9DxjUswhGPAislwj1yxh0u+JxHC0vZnsbNUA6ZTkxWjTt6jQiAAAACnRSTlP9////T73G/gAeawr5owAABSdJREFUWMPVmQlX2koUgDPctqgohJfNBIlAVkOAiGwuSOvSVp+1dWm1fUv7lv//G96dGeqCLJVyXtN7jpNxyEy+mbvkzkSYm5t/JtQTMZO68Gx+bk6YeyI0chKJmUi5hvBkTpgXmiSWUkW0pw0SU2k8FZK5uMLlksKeFFc4aU9IkdhK6ueBq72XJ3dJF5UsOngnm81Wi1hksS2hJmjNxWq5o3TKhOwKhES7M4T7++3Wzr+TTNAPfL+rEGLquu4lU6buY6PS7ulBXfcIKYiCnhTbJG9HJJ2fIdxfC2+3tj6M915PLPCKzUrVZBelTYhWpjVNx2JfI3mlNVu4XxYo3dZFaVzwUUqkoetpYna7wkM417SwtEQ1ryv+rOGQbnNz65/Rum1oJdLNtrSJcOlyIMwabuHXTZSd9+PVKnQmqjVNDrSZw72gdIuLH2pjHGJJjLhDPIS7cYg0sZyZw1G6RSoXxuhQEvVDCXE7rC2hEpKpsurXUIK36Lszh0M6Brc4Wrc/Igj34RZe7HC60br9gXC3dIsXcuzgbumOnr+W4ga38IrTHf25tvbb7w96VQp+Mm190wPkkjzYgMLbjJI8FdzCqy3GtrG2tr7+x/F9tFQIVPLfgrcEmcEGKs4ZvofTUJwOjtIdPd9gcNvrr+8mqBqOnc1gaVpTw2Fn9zvgULPIxuG2t2/Xv6KB2aMh0FXOp1u5bC6XUzXQjO+AuzwcCtcFu79dk6Xp4FiDF0J1erjLl6svh6i1YoP/GI8bBUc0aE8Nd3m4ukrpBh2iDGFlYH+ZCYIDtphSuyhqKZYPlnxFzLj1OmcpJRWxqN6Dk02IGFwzI4qdiDTrdWortXrdnQj3mbIh3cZgKEmCwq5RgUmN6Ny+0xgZMtwREbSm0ZoNwFj4f7B/B04+B7NC4SLu+X7FBJru7IMjT4L7fLi8zOkGg3C3r4qAM6lVgDO3mYHQJT6EvqUqIJZIBpy21TP7cAcglr19CD0O5yiK4tDpUDjd6bhuAsJcig2sgTBJrSeny8uc7mowTPqgsWs+QAlBzQLd4Eh5OJMcoLlcxYGeB0BTlAaHqwE0ide1oX4nlDi9fpyTm4W2pUDBAvBIEyknwHE2pPv46YGRqgA33Q0bLAcilsZBgEQsT6jDeZvPQA4ZnAoizgFEv8bhWmgOVTppClfpcANIkyIkyR6b6ji4kzec7fB6iAcZDiRuncOUbLZGJALRBTD40w960GI3mAwuoo9vFYwH7kvhsuCk9HMKh0Pgqqvj4U7erKxQtqvhyWYaoNd/VQSQIgrOlz0yXwn5yC1IqmBTl7a4WvFCN7qSNASuxAxA0hBOCiADgTQ+TUc2pPt4POoEI0tdAMNDTwSROquJo6s2EmdByxHJB7AMETIyqbT6DqEgBDH2Wt5QOJVISebt+o1Hj4LjbKfXY/IMGjFMEQsRGWUFQMG/vEE8B+w8evES1TI4RfRIDle1wcljh/JQtYatAEIKV7P5go+Ge0fZvhhjI3dZYW/uXWbglQOshwm617VatFlnNogs4W4fjlRpoBOjYTZXK+JPBxkKRzrcn0fCUbar48lHZ6rq3kygpqpf03lPrfZjj9FUcx6Y/XxOcqOm8SDB4/mcpXr9cWxwxx1HINuQ8PH4k7WG4rGVaT2mlz94+/2DnHcrp19mkpV3ICjTN0TvEX3QiwrjjsA+Xc9oP5Pjb7eO8Yg+BRCN/+fwsIJ5SCv9GDbSWCr/XCebsT6wjvVRf6w/ksT681KsP8zF+ZPmf8LN0J3F8PcUAAAAAElFTkSuQmCC" style="-ms-interpolation-mode:bicubic;margin:0 auto;border:none;display:block;margin:0; height: auto; outline:0;text-align:center;text-decoration:none;width:auto; border-style: none;" />
+										<a href="http://kodak.ly/1QxHWXv" style="margin:0;padding:0;color:#ffffff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:center;text-decoration:none;hyphens:auto;-moz-hyphens:auto;-webkit-hyphens:auto;font-size:16px; width: 100%;" width="100%">
+											<img class="" alt="Get it on Google Play" title="Get it on Google Play" src="http://images.kodakmoments.com/email-icons/google-play.png" width="165" style="-ms-interpolation-mode:bicubic;margin:0 auto;border:none;display:block;margin:0; height: auto; outline:0;text-align:center;text-decoration:none;width:165px; border-style: none;" />
 										</a>
 									</td>
 									<!-- END GOOGLE PLAY STORE DOWNLOAD ICON -->
@@ -403,7 +410,7 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 					<!-- BEGIN SPACER -->
 					<tr>
 						<td class="one-hundred-percent body-copy-spacer-adjust" align="center" width="100%" height="25" bgcolor="#808080" style="text-align: center; width: 100%;">
-						&nbsp;
+							<span style="line-height: 0;">&nbsp;</span>
 						</td>
 					</tr>
 					<!-- END SPACER -->
@@ -415,11 +422,11 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 		<!-- BEGIN CONTACT & SOCIAL LINKS SECTION -->
 		<tr>
 			<td class="one-hundred-percent" align="center" width="100%" bgcolor="#808080" style="text-align: center; width: 100%;">
-				<table class="mobile-footer-table" width="555" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;float:none;height:auto;margin:0 auto; padding:0;text-align:center;vertical-align:top; width: 555px; border-bottom: 1px solid #ffffff;">
+				<table class="mobile-footer-table" width="555" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;float:none;padding:0;text-align:center;vertical-align:middle; width: 555px; border-bottom: 1px solid #ffffff;">
 					<!-- BEGIN SPACER -->
 					<tr>
 						<td class="one-hundred-percent body-copy-spacer-adjust" align="center" width="100%" height="25" bgcolor="#808080" style="text-align: center; width: 100%;">
-						&nbsp;
+							<span style="line-height: 0;">&nbsp;</span>
 						</td>
 					</tr>
 					<!-- END SPACER -->
@@ -428,15 +435,15 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 					<tr>	
 						<!-- BEGIN COPY -->		
 						<td class="one-hundred-percent mobile-cell-full-width" width="49%" align="center" style="vertical-align: middle; display: inline-block; width: 49%; text-align: center; /*border: 1px solid green;*/">
-							<span style="margin:0;padding:0;color:#ffffff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.5em;margin:0;padding:0;text-align:center;">
+							<span style="margin:0;padding:0;color:#ffffff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:1.5em;margin:0;padding:0;text-align:center;display: block;">
 								<!-- BEGIN SITE COPY -->	
-								<a class="" align="center" href="http://apps.kodakmoments.com" style="color: #fff; margin:0;padding:0; padding-bottom: 1px; border-bottom: 1px solid #fff;text-align:left;text-decoration:none;">Visit our Site</a>
+								<a class="mso-underline" align="center" href="http://apps.kodakmoments.com" style="color: #fff; margin:0;padding:0; text-align:left;text-decoration:none; display: inline-block; vertical-align: middle;">Visit our Site</a>
 								<!-- END SITE COPY -->
 
-								&nbsp;&nbsp;|&nbsp;&nbsp;
+								<span style="color: #fff; margin:0;padding:0; text-align:left;text-decoration:none; display: inline-block; vertical-align: middle;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
 
 								<!-- BEGIN CONTACT US COPY -->
-								<a class="" align="center" href="http://kmotd.kodakmoments.com/app/contact/landing/kodak" style="color: #fff; margin:0;padding:0; padding-bottom: 1px; border-bottom: 1px solid #fff;text-align:left;text-decoration:none;">Contact Us</a>
+								<a class="mso-underline" align="center" href="http://kmotd.kodakmoments.com/app/contact/landing/kodak" style="color: #fff; margin:0;padding:0; text-align:left;text-decoration:none; display: inline-block; vertical-align: middle;">Contact Us</a>
 								<!-- BEGIN CONTACT US COPY -->
 							</span>
 						</td>
@@ -444,12 +451,12 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 
 						<!-- BEGIN SOCIAL ICONS -->
 						<td class="one-hundred-percent mobile-social" width="49%" align="center" style="vertical-align: middle; display: inline-block; width: 49%; text-align: center;/*border: 1px solid blue;*/">
-							<table class="" cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="border-collapse:collapse;border-spacing:0;margin:0;padding:0;text-align:center;vertical-align:middle;width:100%">
+							<table class="" cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:center;vertical-align:middle;width:100%;">
 								<tr>
 									<!-- BEGIN FACEBOOK -->
 									<td class="" alt="Facebook" style="margin:0 auto;padding:9.75px;padding-top:0px; padding-bottom: 0px; text-align:center;">
 										<a href="http://facebook.com/kodakmomentsus" style="margin:0;color:#EAEAEA;padding:0;text-align:center;text-decoration:none;">
-											<img alt="Facebook" title="Follow us on Facebook" height="29" border="0" src="http://i514.photobucket.com/albums/t343/harmonycareinc/facebook.jpg" style="-ms-interpolation-mode:bicubic;border:0;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto; border-style: none;" width="29" />
+											<img alt="Facebook" title="Follow us on Facebook" height="29" border="0" src="http://images.kodakmoments.com/email-icons/facebook.jpg" style="-ms-interpolation-mode:bicubic;border:0;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto; border-style: none;" width="29" />
 										</a>
 									</td>
 									<!-- END FACEBOOK -->
@@ -457,7 +464,7 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 									<!-- BEGIN INSTAGRAM -->
 									<td class="" alt="Instagram" style="margin:0 auto;padding:9.75px;padding-top:0px; padding-bottom: 0px; text-align:center;">
 										<a href="https://www.instagram.com/kodakmoments/" style="margin:0;color:#EAEAEA;padding:0;text-align:center;text-decoration:none;">
-											<img alt="Instagram" title="Follow us on Instagram" height="29" border="0" src="http://i514.photobucket.com/albums/t343/harmonycareinc/instagram.jpg" style="-ms-interpolation-mode:bicubic;border:none;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto; border-style: none;" width="29" />
+											<img alt="Instagram" title="Follow us on Instagram" height="29" border="0" src="http://images.kodakmoments.com/email-icons/instagram.jpg" style="-ms-interpolation-mode:bicubic;border:none;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto; border-style: none;" width="29" />
 										</a>
 									</td>
 									<!-- END INSTAGRAM -->
@@ -465,7 +472,7 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 									<!-- BEGIN TWITTER -->	
 									<td class="" alt="Twitter" style="margin:0 auto;padding:9.75px;padding-top:0px; padding-bottom: 0px; text-align:center;">
 										<a href="https://twitter.com/kodakmomentsus" style="margin:0;color:#EAEAEA;padding:0;text-align:center;text-decoration:none;">
-											<img alt="Twitter" title="Follow us on Twitter" height="29" border="0" src="http://i514.photobucket.com/albums/t343/harmonycareinc/twitter.jpg" style="-ms-interpolation-mode:bicubic;border:none;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto; border-style: none;" width="29" />
+											<img alt="Twitter" title="Follow us on Twitter" height="29" border="0" src="http://images.kodakmoments.com/email-icons/twitter.jpg" style="-ms-interpolation-mode:bicubic;border:none;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto; border-style: none;" width="29" />
 										</a>
 									</td>
 									<!-- END TWITTER -->
@@ -473,7 +480,7 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 									<!-- BEGIN PINTEREST -->
 									<td class="" alt="Pinterest" style="margin:0 auto;padding:9.75px;padding-top:0px; padding-bottom: 0px; text-align:center;">
 										<a href="https://www.pinterest.com/kodakmomentpins/" style="margin:0;color:#EAEAEA;padding:0;text-align:center;text-decoration:none;">
-											<img alt="Pinterest" title="Follow us on Pinterest" height="29" border="0" src="http://i514.photobucket.com/albums/t343/harmonycareinc/pinterest.jpg" style="-ms-interpolation-mode:bicubic;border:none;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto; border-style: none;" width="29" />
+											<img alt="Pinterest" title="Follow us on Pinterest" height="29" border="0" src="http://images.kodakmoments.com/email-icons/pinterest.jpg" style="-ms-interpolation-mode:bicubic;border:none;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto; border-style: none;" width="29" />
 										</a>
 									</td>
 									<!-- END PINTEREST -->
@@ -487,7 +494,7 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 					<!-- BEGIN SPACER -->
 					<tr>
 						<td class="one-hundred-percent body-copy-spacer-adjust" align="center" width="100%" height="25" bgcolor="#808080" style="text-align: center; width: 100%;">
-						&nbsp;
+							<span style="line-height: 0;">&nbsp;</span>
 						</td>
 					</tr>
 					<!-- END SPACER -->
@@ -499,38 +506,42 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 		<!-- BEGIN SPACER -->
 		<tr>
 			<td class="one-hundred-percent body-copy-spacer-adjust" align="center" width="100%" height="25" bgcolor="#808080" style="text-align: center; width: 100%;">
-			&nbsp;
+				<span style="line-height: 0;">&nbsp;</span>
 			</td>
 		</tr>
 		<!-- END SPACER -->
 
 		<!-- BEGIN LEGAL COPY -->
 		<tr>
-			<td class="legal-font-size one-hundred-percent" width="100%" bgcolor="#808080" style="margin:0;padding:0;vertical-align: middle; width: 183px; display: block; width: 100%;">
-				<table class="mobile-paragraph-table" cellpadding="0" cellspacing="0" border="0" align="center" width="520" style="border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:520px;">
+			<td class="legal-font-size one-hundred-percent" width="100%" bgcolor="#808080" style="margin:0;padding:0;vertical-align: middle; width: 183px; display: inline-block; width: 100%;">
+				<table class="mobile-paragraph-table" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#808080;" width="520" style="border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:520px;background-color: #808080;">
 					<tr>
-						<td class="one-hundred-percent" align="center" width="100%" style="margin:0;padding:0;vertical-align: middle; display: block; width: 100%; text-align: center;">
+						<td class="one-hundred-percent" align="center" width="100%" style="margin:0;padding:0;vertical-align: middle; display: block; width: 100%; text-align: center;background-color: #808080;font-size:12px;font-weight:300;hyphens:manual;line-height:1.3;">
 							<p class="" style="-moz-hyphens:manual;-webkit-hyphens:manual;margin:0;color:#fff;display: block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:12px;font-weight:300;hyphens:manual;line-height:1.3;overflow-wrap:normal;padding:0;text-align:center;word-break:keep-all;background-color: #808080;">
 								Terms &amp; Conditions will go here.
+							</p>
 
-								<br>
-								<br>
+							<br>
 
+							<p class="" style="-moz-hyphens:manual;-webkit-hyphens:manual;margin:0;color:#fff;display: block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:12px;font-weight:300;hyphens:manual;line-height:1.3;overflow-wrap:normal;padding:0;text-align:center;word-break:keep-all;background-color: #808080;">
 								&copy; 2017 Kodak Alaris Inc. 
 								The Kodak and Kodak Moment trademarks and Kodak trade dress are used under license from Eastman Kodak Company.
+							</p>
+							
+							<br>
 
-								<br>
-								<br>
-
+							<p class="" style="-moz-hyphens:manual;-webkit-hyphens:manual;margin:0;color:#fff;display: block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:12px;font-weight:300;hyphens:manual;line-height:1.3;overflow-wrap:normal;padding:0;text-align:center;word-break:keep-all;background-color: #808080;">
 								The sender of this email is Kodak Alaris Inc., <span class="apple-links">2400 Mount Read Blvd, Rochester,&nbsp;NY,&nbsp;14615</span>.
+							</p>
 								
-								<br>
-								<br>
 
+							<br>
+							
+							<p class="" style="-moz-hyphens:manual;-webkit-hyphens:manual;margin:0;color:#fff;display: block;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:12px;font-weight:300;hyphens:manual;line-height:1.3;overflow-wrap:normal;padding:0;text-align:center;word-break:keep-all;background-color: #808080;">
 								This email was sent to 
 								<a style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:12px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none; text-decoration:none;"><span class="apple-links">{{special.email}}</span></a>. You have received this because you agreed to receive email from our company about consumer products, offers and services. If you prefer not to receive this kind of email,
 
-								<a href="http://apps.kodakmoments.com/unsubscribe/unsubscribe.php?lang=en-US&email={{special.email}}" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:12px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none; text-decoration:none; border-bottom: 1px solid #fff; padding-bottom: 1px;">click here to&nbsp;unsubscribe</a>.
+								<a href="http://apps.kodakmoments.com/unsubscribe/unsubscribe.php?lang=en-US&email={{special.email}}" class="mso-underline" style="margin:0;color:#fff;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:12px;font-weight:300;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none; text-decoration:none; vertical-align: middle; padding-bottom: 1px; border-bottom: 1px solid #ffffff;">click here to&nbsp;unsubscribe</a>.
 							</p>
 						</td>
 					</tr>
@@ -542,7 +553,7 @@ body, table, td, p, a, span {font-family: Arial, Helvetica, sans-serif !importan
 		<!-- BEGIN SPACER -->
 		<tr>
 			<td class="one-hundred-percent body-copy-spacer-adjust" align="center" width="100%" height="25" bgcolor="#808080" style="text-align: center; width: 100%;">
-			&nbsp;
+				<span style="line-height: 0;">&nbsp;</span>
 			</td>
 		</tr>
 		<!-- END SPACER -->
